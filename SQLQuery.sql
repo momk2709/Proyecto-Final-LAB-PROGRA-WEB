@@ -2,9 +2,9 @@ CREATE DATABASE Certificaciones;
  CREATE TABLE Usuarios (
   id INT PRIMARY KEY IDENTITY,
   nombre VARCHAR(50) NOT NULL,
+  apellido VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL,
-  password VARCHAR(50) NOT NULL,
-  tipo_usuario INT NOT NULL
+  password VARCHAR(50) NOT NULL
 );
 CREATE TABLE Inscripciones (
   id INT PRIMARY KEY IDENTITY,
